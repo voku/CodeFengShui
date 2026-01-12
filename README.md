@@ -1,7 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="Code Feng Shui Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # Code Feng Shui: The Art of White Space
 
 An interactive web application that demonstrates the importance of whitespace in code through a visual desk metaphor. Drag the slider to transform chaos into clarity and explore key code design principles.
