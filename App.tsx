@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { GripVertical, Sparkles, Zap } from 'lucide-react';
 import DeskLayer from './components/DeskLayer';
 import InfoPanel from './components/InfoPanel';
+import Footer from './components/Footer';
 import { DeskItemConfig } from './types';
 
 const App: React.FC = () => {
@@ -166,6 +167,9 @@ const App: React.FC = () => {
         isMessyDominant={sliderPosition < 30}
         isVisible={isPanelVisible}
       />
+
+      {/* Footer with Blog Post and GitHub Links */}
+      <Footer />
     </div>
   );
 };
