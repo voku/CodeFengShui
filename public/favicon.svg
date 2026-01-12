@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#6366f1" stroke="#4f46e5" stroke-width="2"/>
+  
+  <!-- Yin-Yang style split representing clean vs messy -->
+  <path d="M 50 2 A 48 48 0 0 1 50 98 A 24 24 0 0 0 50 50 A 24 24 0 0 1 50 2" fill="#f8fafc"/>
+  
+  <!-- Code brackets representing code -->
+  <text x="35" y="58" font-family="monospace" font-size="32" font-weight="bold" fill="#4f46e5">&lt;</text>
+  <text x="58" y="58" font-family="monospace" font-size="32" font-weight="bold" fill="#1e293b">/&gt;</text>
+  
+  <!-- Small dots for detail -->
+  <circle cx="50" cy="26" r="4" fill="#1e293b"/>
+  <circle cx="50" cy="74" r="4" fill="#4f46e5"/>
+</svg>
