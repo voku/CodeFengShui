@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Split line to represent before/after -->
+  <line x1="600" y1="100" x2="600" y2="530" stroke="#fff" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Left side: Messy code representation -->
+  <g opacity="0.9">
+    <rect x="80" y="150" width="450" height="280" rx="12" fill="#1e293b" filter="url(#shadow)"/>
+    <text x="100" y="190" font-family="'Courier New', monospace" font-size="16" fill="#ef4444">function foo(){var x=1;var y=2;return x+y;}</text>
+    <text x="100" y="220" font-family="'Courier New', monospace" font-size="16" fill="#ef4444">if(condition){doSomething();doAnother();</text>
+    <text x="100" y="250" font-family="'Courier New', monospace" font-size="16" fill="#ef4444">doMore();}else{handleError();}</text>
+    <text x="100" y="280" font-family="'Courier New', monospace" font-size="16" fill="#ef4444">const data=[1,2,3,4,5];data.map(x=&gt;</text>
+    <text x="100" y="310" font-family="'Courier New', monospace" font-size="16" fill="#ef4444">x*2).filter(x=&gt;x&gt;5).reduce((a,b)=&gt;</text>
+    <text x="100" y="340" font-family="'Courier New', monospace" font-size="16" fill="#ef4444">a+b,0);function bar(){return true;}</text>
+    <text x="100" y="370" font-family="'Courier New', monospace" font-size="16" fill="#ef4444">const obj={a:1,b:2,c:3,d:4,e:5};</text>
+    <text x="100" y="400" font-family="'Courier New', monospace" font-size="16" fill="#ef4444">if(check){val=compute();}process();</text>
+    <!-- Messy label -->
+    <text x="305" y="470" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Cluttered</text>
+  </g>
+  
+  <!-- Right side: Clean code representation -->
+  <g opacity="0.9">
+    <rect x="670" y="150" width="450" height="280" rx="12" fill="#f8fafc" filter="url(#shadow)"/>
+    <text x="690" y="190" font-family="'Courier New', monospace" font-size="16" fill="#10b981">function calculateSum() {</text>
+    <text x="710" y="220" font-family="'Courier New', monospace" font-size="16" fill="#10b981">  const x = 1;</text>
+    <text x="710" y="250" font-family="'Courier New', monospace" font-size="16" fill="#10b981">  const y = 2;</text>
+    <text x="710" y="280" font-family="'Courier New', monospace" font-size="16" fill="#10b981">  </text>
+    <text x="710" y="310" font-family="'Courier New', monospace" font-size="16" fill="#10b981">  return x + y;</text>
+    <text x="690" y="340" font-family="'Courier New', monospace" font-size="16" fill="#10b981">}</text>
+    <text x="690" y="370" font-family="'Courier New', monospace" font-size="16" fill="#10b981"></text>
+    <text x="690" y="400" font-family="'Courier New', monospace" font-size="16" fill="#10b981">// Clean, readable code</text>
+    <!-- Clean label -->
+    <text x="895" y="470" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e293b" text-anchor="middle">Clear</text>
+  </g>
+  
+  <!-- Title at top -->
+  <text x="600" y="65" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#fff" text-anchor="middle">Code Feng Shui</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="560" font-family="Arial, sans-serif" font-size="28" fill="#fff" text-anchor="middle" opacity="0.95">The Art of White Space in Code</text>
+  
+  <!-- Small decorative elements -->
+  <circle cx="560" cy="315" r="6" fill="#fff" opacity="0.6"/>
+  <circle cx="640" cy="315" r="6" fill="#fff" opacity="0.6"/>
+</svg>
